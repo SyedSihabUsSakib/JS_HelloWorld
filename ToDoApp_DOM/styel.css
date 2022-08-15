@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h1,h2
+  {
+    text-transform: uppercase ;
+    text-align: center;
+    margin:0;
+  }
+
+  h2
+  {
+    font-size: 20px;
+    padding:0 0 10px;
+    text-align: center;
+    border-bottom: 2px solid #b1c9bb;
+    color: #808080
+  }
+  .container
+  {
+    max-width: 780px;
+    /* max-height: 780px; */
+    background-color: #d3efdf;
+    margin: 50px auto;
+    border:2px solid #b1c9bb;
+    border-radius: 15px;
+    padding:20px;
+    font-family: sans-serif;
+    overflow:hidden;
+  }
+  .logo{
+    text-align: center;
+    width: 100%;
+  }
+  .logo img{
+    width: 100px;
+  }
+
+  .box
+  {
+    background: white;
+    padding:10px 15px;
+    border:2px solid #b1c9bb;
+    border-radius: 7px;
+    margin: 15px 5px;
+  }
+  .newTaskContainer
+  {
+    text-align: center;
+  }
+
+  ul
+  {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+  }
+  li
+  {
+    padding: 5px;
+    border-bottom:1px dotted #b1c9bb
+  }
+  ul li:last-child
+  {
+    border-bottom:none;
+  }
+  .incomplete
+  {
+    float:left;
+    width:45%;
+  }
+  .complete 
+  {
+    float:right;
+    width:45%;
+  }
+
+  .delete
+  {
+    margin:0;
+    float: right;
+    color:white;
+    background: red;
+    border:1px solid red;
+    padding: 2px 12px;
+  }
