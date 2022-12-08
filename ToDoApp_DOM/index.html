@@ -12,35 +12,38 @@
             <div class="logo">
                 <img src="./img/taskmanager.png" alt="Sihab Todo Tasks">
             </div>
-            <h1 id="header">TO-DO app</h1>
+            <h1 id="header">TO-DO <span style = "display:none">app</span> </h1>
             <form action="" class="newTaskContainer box">
                 <label for="">Add New Task</label>
                 <input type="text" id="newtask">
-                <input type="submit" id="addTask" value="Add">
+                <input type="submit" id="addTask" value="Add Task">
             </form>
 
-            <div class="incomplete box">
+            <div class="incomplete box" id="list">
                 <h2>Incomplete task</h2>
-                <ul>
-                    <li>
+                <ul id = "incompleteUl">
+                    <li class="hello">
                         <input type="checkbox" name="" id=""><label for="">Task Name</label>
+                        <!-- <button class="updateButton" >Update</button> -->
                     </li>
-                    <li>
+                    <li class="hello">
                         <input type="checkbox" name="" id=""><label for="">Task Name</label>
+                        <!-- <button class="updateButton" >Update</button> -->
                     </li>
-                    <li>
+                    <li class="hello">
                         <input type="checkbox" name="" id=""><label for="">Task Name</label>
+                        <!-- <button class="updateButton" >Update</button> -->
                     </li>
                 </ul>
             </div>
             <div class="complete box">
                 <h2>Completed Task</h2>
                 <ul>
-                    <li>
+                    <li class="hello">
                         <label for="">Task Name</label>
                         <button class="delete">Delete</button>
                     </li>
-                    <li>
+                    <li class="hello">
                         <label for="">Task Name</label>
                         <button class="delete">Delete</button>
                     </li>
