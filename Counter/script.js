@@ -6,7 +6,9 @@ let text = document.querySelector("#ip");
 let add = function()
 {
     let val = text.value;
+    if(val=="")val=0;
     val = parseInt(val,10);
+    
     if(isNaN(val))
     {
         text.value="";
@@ -19,6 +21,7 @@ let add = function()
 let sub = function()
 {
     let val = text.value;
+    if(val=="")val=0;
     val = parseInt(val,10);
     if(isNaN(val))
     {
@@ -32,7 +35,7 @@ let sub = function()
 let zero = function()
 {
     
-        text.value="";
+        text.value=0;
 }
 inc.addEventListener('click',add);
 dec.addEventListener('click',sub);
