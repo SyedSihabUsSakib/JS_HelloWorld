@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrap{
+    background-color: #d3efdf;
+    max-width: 780px;
+    margin: 100px auto;
+    overflow: hidden;
+    padding:80px 42px;
+}
+
+img{
+    width:17%;
+}
+
+.logo{
+    width:90%;
+}
+
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:4px;
+  }
+
+  .decreament{
+    border:2px solid #f44336;
+  }
+  #increament{
+    border:2px solid #4CAF50;
+  }
+  .decreament:hover{
+    background-color: #f44336;
+    color:white;
+  }
+  #increament:hover{
+    background-color: #4CAF50;
+    color:white;
+  }
+  input[type="text"]{
+    height: 27px;
+    border: 2px solid #008CBA;
+  }
